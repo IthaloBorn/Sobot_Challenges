@@ -27,13 +27,13 @@ usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
 
 usb.write(b"LT E1 RD0 GR0 BL50")                # Turn led tape in blue
-usb.write(b"MT0 E1 D90 L AT3950 DT3950 V25")    # Move 90° to the left
+usb.write(b"MT0 E1 D90 L AT1000 DT3950 V25")    # Move 90° to the left
 
 usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
 
 usb.write(b"LT E1 RD50 GR25 BL0")                # Turn led tape in yellow
-usb.write(b"MT0 E1 D90 R AT3950 DT3950 V25")    # Move 90° to the right
+usb.write(b"MT0 E1 D90 R AT1000 DT3950 V25")    # Move 90° to the right
 
 usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
@@ -45,19 +45,19 @@ usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
 
 usb.write(b"LT E1 RD0 GR0 BL50")                # Turn led tape in blue
-usb.write(b"MT0 E1 D90 L AT3950 DT3950 V25")    # Move 90° to the left
+usb.write(b"MT0 E1 D90 L AT1000 DT3950 V25")    # Move 90° to the left
 
 usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
 
 usb.write(b"LT E1 RD50 GR25 BL0")                # Turn led tape in yellow
-usb.write(b"MT0 E1 D90 R AT3950 DT3950 V25")    # Move 90° to the right
+usb.write(b"MT0 E1 D90 R AT1000 DT3950 V25")    # Move 90° to the right
 
 usb.write(b"LT E1 RD0 GR50 BL0")               # Turn led tape in green
 usb.write(b"MT0 E1 D500 AT5000 DT5000 V25")    # Move forward
 
 usb.write(b"LT E1 RD50 GR0 BL0")               # Turn led tape in red
-usb.write(b"MT0 E1 D180 R AT5000 DT5000 V25")    # turn around
+usb.write(b"MT0 E1 D180 R AT1000 DT5000 V25")    # turn around
 
 usb.write(b"LT E1 RD0 GR0 BL0")    # Turn off led tape
 
